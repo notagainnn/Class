@@ -1,0 +1,33 @@
+
+.exerciseHeader, .exerciseFooter, .exerciseMain {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseMainFeatures {
+    display: flex;
+    gap: 10px;
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature {
+    width: 50%;
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature:first-child {
+    gap:10px;
+}
+
+.exerciseAdditionalFeatures {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature {
+    gap:10px;
+    width: 33%;
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {
+    gap:10px;
+
+}
