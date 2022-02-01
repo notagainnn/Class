@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6, p {
 p {
   font-size: 18px;
   line-height: 1.5;
-  padding: 15px 0;
+  padding: 15px;
 }
 
 /* Fonts, classes are so I can reuse the styles on a variety of elements */
@@ -28,8 +28,14 @@ p {
 .startupheader {
   justify-content: start;
   font-family: 'lato';
+  background-color: black;
+  color: yellow;
 }
 
+.startupheader h1 {
+  color: yellow;
+  background-color: black;
+}
 .startupheader li {
   display: inline-block;
   gap: 10px; 
