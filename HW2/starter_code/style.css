@@ -36,6 +36,10 @@ p {
   color: black;
 }
 
+a.logo {
+  color: yellow;
+}
+
 .startupheader li:hover {
   background-color: yellow; 
 }

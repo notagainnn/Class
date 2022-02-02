@@ -1,9 +1,12 @@
 
-.exerciseFooter, .exerciseMain {
+.exerciseFooter, .exerciseMain, .exerciseHeader {
     margin: 0 10px 10px 10px;
 }
 
 .exerciseHeader {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    margin-bottom: 10px;
 
 
 }
@@ -15,10 +18,15 @@
 }
 
 .exerciseHeaderNav {
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr;
 
 }
 
 .exerciseHeaderNav ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    list-style-type: none;
 
 }
 
@@ -31,15 +39,24 @@
 /* Main */
 
 .exerciseMain {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) ;
+   
 
 }
 
 .exerciseMainLeftNav {
+    display: grid;
+    margin-right: 10px;
 
 
 }
 
 .exerciseMainContent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-end: span 4;
+    gap: 10px;
 
 
 }
@@ -49,10 +66,14 @@
 }
 
 .exerciseMainContentBanner {
+    grid-column-end: span 4;
+    height: 50px;
 
 }
 
 .exerciseMainContentSubBanner {
+    grid-column-end: span 3;
+    height: 50px;
 
 }
 

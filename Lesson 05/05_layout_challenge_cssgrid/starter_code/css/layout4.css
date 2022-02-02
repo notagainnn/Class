@@ -11,11 +11,14 @@ Use Flex-wrap, flex-direction, and flex to control how the header spaces and siz
 
 
 
-.exerciseFooter, .exerciseMain {
+.exerciseFooter, .exerciseMain, .exerciseHeader {
     margin: 0 10px 10px 10px;
 }
 
 .exerciseHeader {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    margin-bottom: 10px;
 
 
 }
@@ -28,9 +31,17 @@ Use Flex-wrap, flex-direction, and flex to control how the header spaces and siz
 
 .exerciseHeaderNav {
 
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr;
+    
+    
+
 }
 
 .exerciseHeaderNav ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    list-style-type: none;
 
 }
 
@@ -41,16 +52,19 @@ Use Flex-wrap, flex-direction, and flex to control how the header spaces and siz
 
 
 .exerciseMainContent {
-
+    margin-bottom: 10px;
+   
 }
 
 
 .exerciseAdditionalFeatures {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 }
 
 .exerciseAdditionalFeatures .exerciseMarketingFeature {
-
+    
 
 }
 

@@ -32,8 +32,8 @@ body {
 
 /* Simple grid-template-columns, grid-template-rows, see how they work - play with them */
 .grid01 {
-  grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 100px;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: (repeat)1;
 }
 
 .base-child {

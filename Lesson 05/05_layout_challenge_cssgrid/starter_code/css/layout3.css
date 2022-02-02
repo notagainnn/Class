@@ -4,13 +4,14 @@
 }
 
 .exerciseMainFeatures {
-
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
 .exerciseMainFeatures .exerciseMarketingFeature {
-
-
+    margin-bottom: 10px;
+    
 }
 
 .exerciseMainFeatures .exerciseMarketingFeature:first-child {
@@ -18,6 +19,9 @@
 }
 
 .exerciseAdditionalFeatures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 
 }
 

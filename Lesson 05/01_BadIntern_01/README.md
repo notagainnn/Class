@@ -8,7 +8,7 @@
 
 Your client has had an intern work on a content page and something has gone horribly wrong.  They are now in a panic and have asked you to try to repair the damaged page.  They have identified the followng problems:
 
-- The first is broken
+- The first image is broken
 - The second image seems to be stretched
 - Images that are smaller than the width of the content box should center.
 - The paragraphs are all slurred together. There should be 20px of space between them.

@@ -25,11 +25,20 @@ p {
 /* Background Image */
 /* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */
 
+
+
+a {
+  text-decoration: none;
+}
+
 .startupheader {
   justify-content: start;
   font-family: 'lato';
   background-color: black;
   color: yellow;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: yellow solid 5px;
 }
 
 .startupheader h1 {
@@ -42,8 +51,16 @@ p {
   color: black;
 }
 
-.startupheader li:hover {
-  background-color: yellow; 
+.startupheader li:hover a{
+  color: yellow; 
+}
+
+.startupheader li a{
+  color: white; 
+}
+
+a.logo {
+  color: yellow;
 }
 
 .topbar {
@@ -166,6 +183,7 @@ aside {
 }
 
 .linething {
-  border: 1px solid black;
-  border-style: groove;
+  border-right: 1px solid lightgray;
+
+  
 }
