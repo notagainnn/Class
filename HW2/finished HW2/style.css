@@ -44,6 +44,7 @@ a {
 .startupheader h1 {
   color: yellow;
   background-color: black;
+  margin-left: 5px;
 }
 .startupheader li {
   display: inline-block;
@@ -79,11 +80,11 @@ a.logo {
   display:flex;
   justify-content: flex-end;
   gap: 10px;
+  margin-right: 5px;
   
 }
 
 .navheaderitems {
-  font-family:'oswald';
   gap: 10px;
   color: black;
 }
@@ -186,4 +187,8 @@ aside {
   border-right: 1px solid lightgray;
 
   
+}
+
+.navheaderitems .newfont a{
+  font-family:'oswald';
 }
