@@ -3,18 +3,90 @@
   <head>
     <meta charset="UTF-8">
     <title>Airbnb | Melbourne</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="normalize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     
-    <!-- Logo: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/logo.png -->
-    <!-- Heart icon: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/heart.png -->
-    <!-- Chat icon: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/chat.png -->
+    <header class="airbnb_siteheader">
+      <img src="logo.png" alt="Airbnb Logo" class="airbnb_siteheader_logo" />
+
+      <nav class="airbnb_siteheader_sitenav">
+        <ul>
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+            
+    </header>
     
-    <p>Make it look like this:</p>
-    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/airbnb-solution-image.jpg" alt="solution" style="width:1200px;" />
+    <main>
+
+      <section class="airbnb_herobox">
+        <div class="airbnb_herobox_textbox">
+        <h1>Melbourne</h1>
+        <p>From footy to fashion, the cultural capital of Australia dares to stay on the cutting edge.
+</p>
+        <a href="#" class="btn">Find a neighborhood</a>
+      </div>
+      </section>
+
+      <section class="airbnb_resident_comments">
+        <article>
+          <h1>Locals Love</h1>
+          <img src="heart.png" alt="Locals Love"/>
+          <p>Tourists mispronouncing Melbourne (it's mel-bin), crowded trains & trams, ticket inspectors, unpredictable weather, the price of real estate, Sydney
+          </p>
+        </article>
+        <article>
+          <h1>Locals Complain About</h1>
+          <img src="chat.png" alt="Locals Complain" />
+          <p>Coffee, talking about coffee, brunch, footy in winter, cricket in summer, laneways & hidden bars, street art & buskers, debating which side of the river is better</p>
+        </article>
+      </section>
+
+      <section class="airbnb_featured_neighborhoods">
+        <h1>Featured Neighborhoods</h1>
+        <p>Explore 19 Melbourne neighborhoods. Which are right for you?</p>
+
+        <div class="airbnb_featured_neighborhoods_tricol">
+        <div class="airbnb_featured_neighborhoods_card">
+          <div class="airbnb_featured_neighborhoods_card_featuredImage photo_fitzroy">
+            <h2>Fitzroy</h2>
+            <p>Baristas, Beards, Bikes.</p>
+          </div>
+          <p>Hip Terrace Houses Anything Goes Vintage Clothing
+          </p>
+        </div>
+
+        <div class="airbnb_featured_neighborhoods_card">
+          <div class="airbnb_featured_neighborhoods_card_featuredImage photo_kilda">
+            <h2>St Kilda</h2>
+            <p>Backpackers and packed sand.</p>
+          </div>
+          <p>Cake Shops Backpackers Hippies Beach Culture</p>
+        </div>
+
+        <div class="airbnb_featured_neighborhoods_card">
+          <div class="airbnb_featured_neighborhoods_card_featuredImage photo_central">
+            <h2>Central Business District</h2>
+            <p>Big business. Little laneways.</p>
+          </div>
+          <p>Coffee Culture Working Nine To Five Federation Square Flinders Street Station</p>
+        </div>
+      </div>
+
+        <a href="#" class="btn">Find a neighborhood</a>
+        
+      </section>
+    </main>
+  
+    <footer class="airbnb_siteFooter">
+      <div class="airbnb_siteFooter_inner">
+        <p>&copy; Airbnb, Inc.</p>
+    </div>
+    </footer>
   
   </body>
 </html>

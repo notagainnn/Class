@@ -7,6 +7,223 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+/* airbnb_siteheader */
+.airbnb_siteheader {
+  display:flex;
+  justify-content:space-between;
+}
+
+.airbnb_siteheader_logo {
+  max-width: 200px;
+  max-height: 50px;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.airbnb_siteheader_sitenav {
+  display:flex;
+  align-items:center;
+}
+
+.airbnb_siteheader_sitenav ul {
+  display:flex;
+  justify-content:flex-end;
+  list-style:none;
+  gap:20px;
+  margin-right: 40px;
+  align-items:center;
+}
+
+.airbnb_siteheader_sitenav ul a {
+  color:black;
+  text-decoration:none;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+
+/* Button */
+.btn,
+.btn:visited {
+  color: white;
+  background-color: #ff5358;
+  font-size: 20px;
+  padding: 20px 40px;
+  margin: 10px auto;
+  display: block;
+  width:220px;
+  text-align: center;
+  text-decoration:none;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: #e00007;
+}
+
+/* AirBnB Marketing HeroBox on the Home Page */
+.airbnb_herobox {
+  width: 100%;
+  min-height:400px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(melbourne.jpg);
+  background-color: #0e0f0f;
+  background-size: cover;
+  
+}
+
+.airbnb_herobox_textbox {
+  max-width: 500px;
+}
+
+.airbnb_herobox_textbox h1,
+.airbnb_herobox_textbox p {
+  color: white;
+  display:block;
+  width: 100%;
+  font-size: 60px;
+  font-weight:700;
+  text-align: center;
+}
+.airbnb_herobox_textbox p {
+  font-size: 20px;
+}
+
+
+/* airbnb_resident_comments */
+
+.airbnb_resident_comments {
+  background-color: #efefef;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  padding: 40px;
+  gap:40px;
+}
+
+.airbnb_resident_comments article {
+  border: 1px solid #dbdbdb;
+  background-color: white;
+  display:grid;
+  grid-template-columns: 1fr 8fr;
+  align-items: center;
+}
+
+.airbnb_resident_comments article h1 {
+  background-color: #efefef;
+  padding: 10px 20px;
+  font-weight:900;
+  font-size: 16px;
+  grid-column: span 2;
+}
+
+.airbnb_resident_comments article img {
+  margin: 20px;
+}
+
+.airbnb_resident_comments article p {
+  margin-top: 20px;
+  margin-right:20px;
+  font-size: 14px;
+  font-weight:700;
+}
+
+
+/* airbnb_featured_neighborhoods */
+
+.airbnb_featured_neighborhoods {
+  padding-top: 60px;
+}
+
+.airbnb_featured_neighborhoods > * {
+  text-align: center;
+}
+
+.airbnb_featured_neighborhoods > h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.airbnb_featured_neighborhoods > p {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 7px;
+}
+
+.airbnb_featured_neighborhoods_tricol {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 0 40px 20px 40px;
+  text-align: left;
+}
+
+/* airbnb_featured_neighborhoods_card */
+
+.airbnb_featured_neighborhoods_card {
+  border: 1px solid #dbdbdb;
+  background-color: #efefef;
+}
+
+.airbnb_featured_neighborhoods_card_featuredImage {
+  background-repeat:no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  background-color: #0e0f0f;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display:flex;
+  flex-direction:column;
+}
+
+.airbnb_featured_neighborhoods_card_featuredImage h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.airbnb_featured_neighborhoods_card_featuredImage p {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.airbnb_featured_neighborhoods_card .photo_kilda {
+  background-image: url(st-kilda.jpg);
+}
+
+.airbnb_featured_neighborhoods_card .photo_central {
+  background-image: url(central-business-district.jpg);
+
+}
+
+.airbnb_featured_neighborhoods_card .photo_fitzroy {
+  background-image: url(fitzroy.jpg);
+}
+
+.airbnb_featured_neighborhoods_card > p {
+  padding: 20px;
+}
+
+.airbnb_siteFooter {
+  width: 100%;
+  margin-top: 40px;
+  color: white;
+  background: #0e0f0f;
+  overflow:hidden;
+}
+
+.airbnb_siteFooter_inner {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px;
+  border-top: 1px solid #efefef;
+}
+
 /* Colors */
 /* Redish / Pink: #ff5358 */
 /* Dark red for button hover: #e00007 */
