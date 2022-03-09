@@ -328,8 +328,7 @@ ul.stats {
     border-radius: 22px;
     display: inline-block;
     height: 20px;
-    padding-top: 2px;
-    margin-bottom: 5px;
+    padding: 2px;
     text-align: center;
     text-transform: uppercase;
     width: 22px;
@@ -403,4 +402,12 @@ ul.stats {
 
 section.footer p {
     text-align: center;
+}
+
+
+/* JAVASCRIPT */
+
+.bigtime {
+    min-width: 30%;
+    min-height: 30%;
 }
