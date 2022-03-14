@@ -1,0 +1,79 @@
+body {
+    background-image: url("https://c.tadst.com/gfx/600x337/full-moon-phase2.jpg?1");
+    background-size: cover;
+    background-position: center;
+}
+.nav-link a {
+    color:white;
+}
+
+.herocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    text-align: center;
+}
+
+.herocta {
+    color: white;
+    font-size: 30px;
+}
+
+.btn-dark {
+    margin-top:3rem;
+    margin-bottom: 4rem;
+}
+
+.carousel-item {
+    max-height: 400px;
+    min-width: 500px;
+}
+
+.carousel-inner {
+    justify-content: center;
+}
+
+.navbar-toggler-icon {
+    color:white;
+}
+
+.hairpic1 {
+    background-image:url("hairphoto1.jpg");
+    height:400px;
+    background-repeat: none;
+    background-size: cover;
+    background-position: top;
+}
+
+.hairpic2 {
+    background-image:url("hairphoto2.PNG");
+    height:400px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: none;
+}
+
+.hairpic3 {
+    background-image:url("hairphoto3.PNG");
+    height:400px;
+    background-repeat: none;
+    background-size: cover;
+    background-position: top;
+}
+
+.hairpicscarousel {
+    width:80%;
+    margin-left:10%;
+}
+
+@media only screen and (max-width: 768px) {
+    .hairpicscarousel {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.modaltext {
+    padding-top: .7rem;
+}
