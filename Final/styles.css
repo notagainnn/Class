@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://c.tadst.com/gfx/600x337/full-moon-phase2.jpg?1");
+    background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701330196.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:20px;
+    margin-top:1.6rem;
     text-align: center;
 }
 
@@ -28,10 +28,28 @@ body {
 .carousel-item {
     max-height: 400px;
     min-width: 500px;
+
+    
+}
+
+.carousel {
+    padding-bottom: 2rem;
 }
 
 .carousel-inner {
     justify-content: center;
+}
+
+.map {
+    width: 100%;
+    height:100%;
+    max-height: 400px;
+    min-height: 300px;
+}
+
+
+.darkfooter {
+    margin-top: 2rem;
 }
 
 .navbar-toggler-icon {
@@ -39,7 +57,7 @@ body {
 }
 
 .hairpic1 {
-    background-image:url("hairphoto1.jpg");
+    background-image:url("hairphoto1.PNG");
     height:400px;
     background-repeat: none;
     background-size: cover;
@@ -62,17 +80,15 @@ body {
     background-position: top;
 }
 
-.hairpicscarousel {
-    width:80%;
-    margin-left:10%;
+.hairpic4 {
+    background-image:url("hairphoto4.PNG");
+    height:400px;
+    background-repeat: none;
+    background-size: cover;
+    background-position: top;
 }
 
-@media only screen and (max-width: 768px) {
-    .hairpicscarousel {
-        width: 100%;
-        margin: 0;
-    }
-}
+
 
 .modaltext {
     padding-top: .7rem;
